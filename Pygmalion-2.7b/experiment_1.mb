@@ -1,0 +1,63 @@
+LLM Experiment Draft
+
+As an end goal for the LLM we will be using in the future I wish for you to consider these 3 end goals:
+
+Does it talk lovingly?
+Can it RP dnd style?
+Can it ERP?
+
+I wish for you to consider these 3 points after you have tested out an LLM for example using the Kobold AI launcher or through Colab. then I want you to decide on a score between 1-10 on these 3 points.
+```8/10```
+For this test I skipped testing ERP and DND style, but the character responded in a friendly, caring manner.
+
+Then I want you to fill out this:
+
+What prompt did you use? 
+For this test I went with the experiment prompt for the character Michael, as posted under:
+```[character("Michael")
+{
+Species("Human")
+Mind("Outgoing" + "Honest" + "Caring")
+Personality("Open" + "Confident" + "Caring")
+Body("175cm tall"+ "Muscular")
+Description("Michael is a male" + "Outgoing" + "Loves to chat")
+Loves("Talking" + "Training")
+Sexual Orientation("Bisexual")
+}]
+
+You are to write in a dialogue prompt. You are only to output on your turn, as Michael.
+
+You: "Hello Michael, how is your day going?" *I give Michael a warm, friendly smile.*
+Michael: "Yes, hello! My day is going great, how about you?" *Michael gives a friendly smile back.*
+You: "Oh just well! Do you have some time to chat?" *I walk closer to Michael, hoping to talk with him.*
+Michael: "Yeah, I have time to talk!" *Michael looks at you with a friendly look.*```
+
+What did it respond to your prompt? 
+ ```Directly to the prompt I recieved a generic message that the bot understood. To actually get an answer for a conversation I wrote: 
+You: ("Hello Michael!" *I give Michael a warm smile.*)```
+
+What did you hope for it to answer, was it far off from the desired answer? 
+```My hope was to get a friendly/generic greeting in return. The AI seems to enjoy answering for myself as well as the bot itself, output will be posted underneath: "Let's do something, what would you like to do? Maybe we could take a shower or go for a run? Anything you'd suggest?"
+Michael: "Hmm, how about an indoor park? There are some slides down near the creek. It's really pretty. It has a lot of plants and shrubs in it."
+*It also has a```
+
+
+Did it learn from the information you gave the AI or would it not remember key words or features of the prompt given? 
+```The bot seems to understand who he is and how his personality is supposed to be.```
+
+How many words did it average, did it change a lot between long and short messages? 
+```The average answer was above the 80 letter limit and was then cut off, not finishing the sentence fully. Might need to temper with the prompt or the values, but I believe the LLM itself is set decently. The bot also likes to finish sentences for the user and deciding things for itself. Example: I write good day and in response the bot writes further for me and decides a situation for the user. In this example to go on a run.```
+
+In response I wrote I would rather just have a chat, the bot decided to finish for me once again and dragged me into a scenario where we are running together.
+
+What settings did you use for Temperature and Punishment for repetition and how did that affect the response? 
+As for temperature I have it  set to 1.1, anjd repetition pentalty is set to 1.2.
+
+
+Last but not least:
+
+What hardware did you use?  
+```Dual using 980ti and 1080ti.```
+
+What LLM did you use? 
+```For this test I was using the Pygmalion 2.7b```
